@@ -1,0 +1,7 @@
+defaults:
+  - base
+
+every: 1000
+# NOT IMPLEMENTED YET:
+until: # specify an episode after which no more checkpoints are created.
+from: # specify an episode before which no checkpoints are created.

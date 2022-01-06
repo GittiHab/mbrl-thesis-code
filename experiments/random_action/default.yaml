@@ -1,0 +1,3 @@
+exploration_prob: 0.4
+exploration_decay_steps: 600
+exploration_min: 0.1

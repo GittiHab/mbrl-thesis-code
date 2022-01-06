@@ -1,0 +1,7 @@
+defaults:
+  - default
+  - _self_
+
+update_after: step
+update_every: 50
+gradient_steps: 50

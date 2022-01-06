@@ -1,0 +1,8 @@
+garage~=2021.3.0
+stable-baselines3~=1.1.0
+gym
+gym-minigrid
+pytest==6.2.*
+torch
+hydra-core~=1.1.1
+hydra-joblib-launcher~=1.1.5

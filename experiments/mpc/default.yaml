@@ -1,0 +1,6 @@
+planning_horizon: 12
+optimisation_iters: 10
+candidates: 1000
+top_candidates: 100
+value_lr:
+weighted: False

@@ -1,0 +1,7 @@
+reward_type: state  # alternative: reward or observation
+steps: 20000  # 20k for complex envs, 5k for simpler ones
+learning_rate: 8e-5
+scale: 1000  # default in P2E: 10 000
+input: state  # can be either 'belief' or 'state'.
+reset_value: False
+reset_target_every: 3

@@ -1,0 +1,5 @@
+env: MiniGrid-FourRooms-v0
+env_seed: 123  # environment seed: seeds 10 and 20 are more difficult. In that order.
+seed: 42  # agent seed
+steps: 30000
+muted: False

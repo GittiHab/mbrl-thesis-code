@@ -1,0 +1,14 @@
+defaults:
+  - default
+  - _self_
+
+# TODO: it might be worth to factor the value parameters into an own group:
+value_lr: 1e-4  # Default from SB3, Dreamer: 8e-5
+value_layers: 3  # SB3: 2
+update_target_every: 1
+# hidden_size: 64 # default from SB3, Dreamer uses values from model_params.
+# comment out to use constant learning rate:
+lr_decay: 0.9
+lr_steps: 20
+lr_min_factor: 0.01
+lr_strategy: step  # or: cyclic

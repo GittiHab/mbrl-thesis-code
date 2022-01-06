@@ -1,0 +1,10 @@
+planning_horizon: 10
+actor_lr: 8e-5
+value_lr: 1e-4  # Default from SB3, Dreamer: 8e-5
+#value_layers: 3  # SB3: 2
+# hidden_size: 64 # default from SB3, Dreamer uses values from model_params.
+# comment out to use constant learning rate:
+lr_decay: 0.8
+lr_steps: 10
+target_fn: dreamer
+lambda_discount: 0.95

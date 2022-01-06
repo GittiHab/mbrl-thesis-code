@@ -1,0 +1,6 @@
+.idea/
+*model.zip
+data/local/
+outputs/
+/remote_results/
+/notebooks/

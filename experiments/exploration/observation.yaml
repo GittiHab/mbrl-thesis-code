@@ -1,0 +1,5 @@
+defaults:
+  - state
+  - _self_
+
+reward_type: observation

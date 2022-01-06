@@ -1,0 +1,8 @@
+gradient_steps: 100
+update_after: episode
+update_every: 1
+resample_batch: True
+warmup_steps: 1000
+log_interval: 1
+sample_across_episodes: True
+introspect_buffer: False

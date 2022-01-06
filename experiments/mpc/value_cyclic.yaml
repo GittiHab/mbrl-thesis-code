@@ -1,0 +1,11 @@
+defaults:
+  - value
+  - _self_
+
+# TODO: This is the point were a separate configuration group for the learning rate schedule or at least the
+#       value function would be sensible...
+lr_max: 2e-4
+lr_min: 8e-6
+lr_half_cycle: 3500
+lr_mode: triangular2
+lr_strategy: cyclic  # or: cyclic

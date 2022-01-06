@@ -1,0 +1,2 @@
+max_timesteps: 1000
+episodes: 10

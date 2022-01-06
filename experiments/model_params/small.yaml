@@ -1,0 +1,9 @@
+belief_size: 100
+state_size: 10
+hidden_size: 200
+embedding_size: 300
+dense_act: elu
+cnn_act: relu
+pcont: False
+world_lr: 6e-4
+symbolic: True

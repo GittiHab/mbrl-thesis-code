@@ -1,0 +1,4 @@
+path: ./checkpoints/
+prefix: model
+exploration_phase: True # checkpoint while exploring
+exploitation_phase: False # checkpoint while exploiting

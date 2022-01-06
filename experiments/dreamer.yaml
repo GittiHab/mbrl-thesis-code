@@ -1,0 +1,6 @@
+defaults:
+  - base
+  - override random_action: default
+  - _self_
+
+algorithm: dreamer

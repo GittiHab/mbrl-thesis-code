@@ -1,0 +1,6 @@
+defaults:
+  - value
+  - _self_
+
+target_fn: dreamer
+lambda_discount: 0.95
